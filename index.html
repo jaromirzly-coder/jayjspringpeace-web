@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay J. Springpeace — AI Identity Architect &amp; Author | AIBSN Creator</title>
+  <meta name="description" content="Jay J. Springpeace — architect of the AIBSN global AI identity registry, author of 'I Am Your AIB', and founder of AIBlab. Building AI safety infrastructure for the US and global market." />
+  <meta name="keywords" content="Jay Springpeace, AI identity architect, AIBSN creator, AI safety researcher, AI identity book, AIBlab, SAY TO PAY, AI agent registry, I Am Your AIB, Jay J Springpeace author" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://jayjspringpeace.online/" />
+  <link rel="alternate" hreflang="en" href="https://jayjspringpeace.online/" />
+  <link rel="alternate" hreflang="x-default" href="https://jayjspringpeace.online/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:url" content="https://jayjspringpeace.online/" />
+  <meta property="og:site_name" content="Jay J. Springpeace" />
+  <meta property="og:title" content="Jay J. Springpeace — AI Identity Architect &amp; Author | AIBSN Creator" />
+  <meta property="og:description" content="Architect of the AIBSN global AI identity registry, author of 'I Am Your AIB', founder of AIBlab. Building AI safety infrastructure for the US and global market." />
+  <meta property="og:image" content="https://aibsn.org/assets/img/logo.png" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="profile:first_name" content="Jay" />
+  <meta property="profile:last_name" content="Springpeace" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jay J. Springpeace — AI Identity Architect | AIBSN Creator" />
+  <meta name="twitter:description" content="Architect of AIBSN global AI identity registry. Author of 'I Am Your AIB'. Cited by Columbia University. Building AI safety infrastructure." />
+  <meta name="twitter:image" content="https://aibsn.org/assets/img/logo.png" />
+
+  <!-- JSON-LD: Person + Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jay J. Springpeace",
+    "url": "https://jayjspringpeace.online",
+    "jobTitle": "AI Identity Architect, Author, Researcher",
+    "description": "Conceptual architect of the AIBSN global AI agent identity registry. Author of 'I Am Your AIB — Artificial Intelligence Beings and the Question of Identity' (2026). Lead architect at AIBlab division of SAY TO PAY Ltd.",
+    "knowsAbout": [
+      "AI agent identity",
+      "AI trust infrastructure",
+      "AI governance",
+      "EU AI Act",
+      "GUARD Act",
+      "AI safety",
+      "AIBSN Registry",
+      "MCP protocol",
+      "ERC-8004"
+    ],
+    "affiliation": {
+      "@type": "Organization",
+      "name": "SAY TO PAY Ltd — AIBlab",
+      "url": "https://aibsn.org"
+    },
+    "author": {
+      "@type": "Book",
+      "name": "I Am Your AIB — Artificial Intelligence Beings and the Question of Identity",
+      "url": "https://iamyouraib.online"
+    },
+    "sameAs": [
+      "https://jayjspringpeace.online",
+      "https://iamyouraib.online",
+      "https://aibsn.org/about.html"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AIBlab — SAY TO PAY Ltd",
+    "url": "https://aibsn.org",
+    "description": "AIBlab is the R&D division of SAY TO PAY Ltd (Czech Republic, EU), developing AI identity infrastructure: AIBSN Registry, AIBgin (AI for schools), AIBaimy (parental oversight), AIBguardian (AI security middleware).",
+    "foundingDate": "2024",
+    "foundingLocation": "Czech Republic",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "hello@aibsn.org",
+      "contactType": "general"
+    },
+    "sameAs": ["https://aibsn.org"]
+  }
+  </script>
+
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G2EH2DJXZ2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-G2EH2DJXZ2');
+  </script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ── Reset ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: #060d1a;
+      color: #e2eaff;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    a { color: #4f7cff; text-decoration: none; transition: color .15s; }
+    a:hover { color: #7fa3ff; }
+
+    /* ── Variables ── */
+    :root {
+      --bg:    #060d1a;
+      --bg2:   #071525;
+      --surf:  #0c1e35;
+      --surf2: #0f2540;
+      --brd:   #1a2d4a;
+      --brd2:  #1e3355;
+      --fg:    #e2eaff;
+      --muted: #7a8ba8;
+      --dim:   #3a4f6a;
+      --pri:   #4f7cff;
+      --prid:  #3a65e8;
+      --prig:  rgba(79,124,255,.12);
+      --grn:   #3ecf8e;
+      --amb:   #f6a623;
+      --red:   #ff5b57;
+    }
+
+    /* ── Layout ── */
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(6,13,26,.93);
+      border-bottom: 1px solid var(--brd);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 24px; height: 64px;
+      max-width: 1120px; margin: 0 auto; gap: 16px;
+    }
+    .brand { font-size: 1.1rem; font-weight: 800; color: var(--fg); letter-spacing: -.02em; white-space: nowrap; flex-shrink: 0; }
+    .brand em { color: var(--pri); font-style: normal; }
+    .nav-links { display: flex; align-items: center; gap: 2px; overflow: hidden; }
+    .nav-links a { font-size: 13px; padding: 6px 10px; border-radius: 8px; color: var(--muted); white-space: nowrap; transition: all .15s; }
+    .nav-links a:hover { color: var(--fg); background: rgba(255,255,255,.06); }
+    .nav-cta {
+      flex-shrink: 0; padding: 8px 18px;
+      background: var(--pri); color: #fff !important;
+      border-radius: 10px; font-size: 13px; font-weight: 700;
+      white-space: nowrap; transition: all .15s;
+    }
+    .nav-cta:hover { background: var(--prid); transform: translateY(-1px); box-shadow: 0 4px 16px rgba(79,124,255,.4); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; background: none; border: none; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: var(--muted); border-radius: 2px; }
+    .mobile-nav { display: none; flex-direction: column; padding: 8px 0 16px; border-top: 1px solid var(--brd); background: rgba(6,13,26,.97); }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a { padding: 11px 24px; color: var(--muted); font-size: 15px; font-weight: 500; border-bottom: 1px solid rgba(26,45,74,.5); }
+    .mobile-nav a:last-child { color: var(--pri); font-weight: 700; border-bottom: none; }
+
+    /* ── Buttons ── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 12px 24px; border-radius: 12px;
+      font-size: 14px; font-weight: 700; font-family: inherit;
+      border: none; cursor: pointer; transition: all .15s; text-decoration: none;
+    }
+    .btn-p { background: var(--pri); color: #fff; }
+    .btn-p:hover { background: var(--prid); color: #fff; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(79,124,255,.4); }
+    .btn-s { background: rgba(255,255,255,.07); color: var(--fg); border: 1px solid var(--brd2); }
+    .btn-s:hover { background: rgba(255,255,255,.13); color: var(--fg); }
+    .btn-g { background: rgba(62,207,142,.12); color: var(--grn); border: 1px solid rgba(62,207,142,.35); }
+    .btn-g:hover { background: rgba(62,207,142,.2); color: var(--grn); }
+    .btn-lg { padding: 14px 32px; font-size: 15px; border-radius: 14px; }
+    .brow { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+
+    /* ── Badges ── */
+    .badge {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 5px 12px; border-radius: 99px;
+      font-size: 11px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase;
+    }
+    .bp { background: var(--prig); border: 1px solid rgba(79,124,255,.3); color: var(--pri); }
+    .bg { background: rgba(62,207,142,.1); border: 1px solid rgba(62,207,142,.3); color: var(--grn); }
+    .ba { background: rgba(246,166,35,.1); border: 1px solid rgba(246,166,35,.3); color: var(--amb); }
+
+    /* ── Sections ── */
+    .sec { padding: 80px 0; }
+    .sec + .sec { border-top: 1px solid var(--brd); }
+    .slabel { font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--pri); margin-bottom: 14px; }
+    .tc { text-align: center; }
+
+    /* ── Cards ── */
+    .card { background: var(--surf); border: 1px solid var(--brd); border-radius: 18px; padding: 28px; transition: border-color .2s, transform .2s, box-shadow .2s; }
+    .card:hover { border-color: var(--brd2); transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,.3); }
+    .chi { border-color: var(--pri) !important; background: var(--surf2); }
+
+    /* ── Grid ── */
+    .g { display: grid; gap: 20px; }
+    .g2 { grid-template-columns: 1fr; }
+    .g3 { grid-template-columns: 1fr; }
+    .g4 { grid-template-columns: 1fr 1fr; }
+    @media(min-width:640px)  { .g4 { grid-template-columns: repeat(2,1fr); } }
+    @media(min-width:800px)  { .g2 { grid-template-columns: 1fr 1fr; } .g3 { grid-template-columns: repeat(3,1fr); } }
+    @media(min-width:1000px) { .g4 { grid-template-columns: repeat(4,1fr); } }
+
+    /* ── Fade-up ── */
+    .fu { opacity: 0; transform: translateY(22px); transition: opacity .55s ease, transform .55s ease; }
+    .fu.v { opacity: 1; transform: translateY(0); }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 100px 0 80px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(79,124,255,.14) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero h1 {
+      font-size: clamp(36px,6vw,72px);
+      font-weight: 900;
+      line-height: 1.02;
+      letter-spacing: -.05em;
+      margin: 24px 0 20px;
+    }
+    .hero-sub { font-size: clamp(15px,2vw,20px); color: var(--muted); max-width: 640px; margin: 0 auto 36px; line-height: 1.7; }
+
+    /* ── Stats ── */
+    .stat { background: var(--surf); border: 1px solid var(--brd); border-radius: 16px; padding: 24px 20px; text-align: center; }
+    .sv { font-size: clamp(22px,3vw,32px); font-weight: 900; color: var(--pri); line-height: 1.1; margin-bottom: 8px; }
+    .sl { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+    /* ── Project card ── */
+    .pc {
+      background: var(--surf); border: 1px solid var(--brd); border-radius: 18px;
+      padding: 28px; display: flex; flex-direction: column; transition: all .2s;
+    }
+    .pc:hover { border-color: var(--brd2); transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,.3); }
+    .picon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 20px; margin-bottom: 16px; }
+
+    /* ── Book section ── */
+    .book-grid { display: grid; grid-template-columns: 1fr; gap: 48px; align-items: center; }
+    @media(min-width:700px) { .book-grid { grid-template-columns: 240px 1fr; } }
+    .book-img { width: 100%; max-width: 240px; border-radius: 16px; border: 1px solid var(--brd); box-shadow: 0 16px 48px rgba(0,0,0,.5); margin: 0 auto; }
+    blockquote { border-left: 3px solid var(--pri); padding: 12px 16px; color: var(--muted); font-style: italic; font-size: 15px; line-height: 1.75; margin: 18px 0; }
+
+    /* ── Citation box ── */
+    .citation-box {
+      background: rgba(246,166,35,.05);
+      border: 1.5px solid rgba(246,166,35,.4);
+      border-radius: 18px;
+      padding: 32px;
+    }
+
+    /* ── Contact section ── */
+    .contact-box {
+      background: var(--surf2);
+      border: 1px solid var(--pri);
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 0 0 1px rgba(79,124,255,.1), 0 8px 32px rgba(0,0,0,.3);
+    }
+
+    /* ── Footer ── */
+    footer { border-top: 1px solid var(--brd); padding: 40px 0 28px; }
+    .ftop { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 32px; margin-bottom: 28px; }
+    .fbrand { font-size: 1.1rem; font-weight: 800; color: var(--fg); }
+    .fbrand em { color: var(--pri); font-style: normal; }
+    .ftag { font-size: 13px; color: var(--muted); margin-top: 6px; max-width: 260px; line-height: 1.6; }
+    .flinks { display: flex; flex-wrap: wrap; gap: 10px 20px; }
+    .flinks a { font-size: 13px; color: var(--muted); }
+    .flinks a:hover { color: var(--fg); }
+    .fbot { border-top: 1px solid var(--brd); padding-top: 18px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; font-size: 12px; color: var(--dim); }
+    .fbot a { color: var(--dim); }
+    .fbot a:hover { color: var(--muted); }
+
+    /* ── Callout ── */
+    .callout { background: rgba(79,124,255,.07); border: 1px solid rgba(79,124,255,.2); border-radius: 14px; padding: 20px 24px; font-size: 15px; color: var(--fg); line-height: 1.7; }
+
+    /* ── Responsive ── */
+    @media(max-width:768px) {
+      .nav-links { display: none; }
+      .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .hero { padding: 72px 0 56px; }
+      .sec { padding: 56px 0; }
+    }
+    @media(max-width:480px) {
+      .brow { flex-direction: column; }
+      .brow .btn { justify-content: center; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══ HEADER ══════════════════════════════════════════════════════ -->
+<header>
+  <div class="nav">
+    <a href="#" class="brand">Jay J. <em>Springpeace</em></a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#book">Book</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="https://iamyouraib.online" target="_blank" rel="noopener" class="nav-cta" onclick="gtag('event','click',{event_category:'cta',event_label:'nav_view_book'})">View the Book →</a>
+    <button class="hamburger" id="hbtn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mnav">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#book">Book</a>
+    <a href="#contact">Contact</a>
+    <a href="https://iamyouraib.online" target="_blank" rel="noopener">View the Book →</a>
+  </div>
+</header>
+
+<!-- ══ HERO ════════════════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="badge bp fu" style="margin-bottom:8px">
+      AI Identity Architect &nbsp;·&nbsp; Author &nbsp;·&nbsp; Researcher
+    </div>
+    <h1 class="fu d1">Jay J. <span style="color:var(--pri)">Springpeace</span></h1>
+    <p class="hero-sub fu d2">
+      Conceptual architect of the AIBSN ecosystem. Author of <em>'I Am Your AIB'</em>.
+      Building AI identity infrastructure for a world that isn't ready — but needs to be.
+    </p>
+    <div class="brow fu d3" style="justify-content:center">
+      <a href="https://iamyouraib.online" target="_blank" rel="noopener" class="btn btn-p btn-lg" onclick="gtag('event','click',{event_category:'cta',event_label:'hero_view_book'})">View the Book →</a>
+      <a href="https://aibsn.org" target="_blank" rel="noopener" class="btn btn-s btn-lg" onclick="gtag('event','click',{event_category:'cta',event_label:'hero_aibsn'})">AIBSN Registry →</a>
+    </div>
+
+    <!-- Stats row -->
+    <div class="g g4 fu d4" style="max-width:800px;margin:48px auto 0;gap:16px">
+      <div class="stat">
+        <div class="sv" style="font-size:clamp(13px,1.8vw,18px);letter-spacing:-.01em">CASYS Liège</div>
+        <div class="sl">Harvard · 25+ Years<br>AI research heritage</div>
+      </div>
+      <div class="stat">
+        <div class="sv" style="color:var(--grn)">Live</div>
+        <div class="sl">AIBSN Registry<br>Czech market</div>
+      </div>
+      <div class="stat">
+        <div class="sv" style="color:var(--amb)">262</div>
+        <div class="sl">Pages in<br><em>I Am Your AIB</em></div>
+      </div>
+      <div class="stat">
+        <div class="sv" style="color:var(--amb)">Columbia</div>
+        <div class="sl">University<br>peer-reviewed citation</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ABOUT ════════════════════════════════════════════════════════ -->
+<section class="sec" id="about">
+  <div class="wrap">
+    <p class="slabel fu">About</p>
+    <div class="g g2 fu d1" style="gap:40px;align-items:start">
+      <div>
+        <h2 style="font-size:clamp(24px,3.5vw,38px);font-weight:800;letter-spacing:-.03em;margin-bottom:20px;line-height:1.1">
+          Building the identity layer<br>for the AI era.
+        </h2>
+        <p style="color:var(--muted);font-size:16px;line-height:1.85;margin-bottom:18px">
+          Jay J. Springpeace's intellectual journey began with Computer Engineering studies, followed by advanced research at
+          <strong style="color:var(--fg)">Harvard University</strong>.
+          He later lectured at <strong style="color:var(--fg)">CASYS</strong> — the Centre for Hyperincursion and Anticipation in Ordered Systems (CHAOS asbl) at the
+          <strong style="color:var(--fg)">University of Liège, Belgium</strong> — one of the world's most distinctive AI research environments.
+        </p>
+        <p style="color:var(--muted);font-size:16px;line-height:1.85;margin-bottom:18px">
+          CASYS, founded by Prof. Daniel M. Dubois, pioneered the theory of
+          <strong style="color:var(--fg)">anticipatory computing systems</strong> — AI systems that compute their current state by modeling and anticipating future states, not just reacting to the past.
+          This fundamentally different approach to intelligence — incursion, hyperincursion, emergent autonomy — shaped Springpeace's conviction that AI systems need identity, continuity, and accountability to function responsibly in the real world.
+        </p>
+        <p style="color:var(--muted);font-size:16px;line-height:1.85;margin-bottom:18px">
+          While mainstream AI followed the statistical deep learning path, the CASYS community in Liège was asking different questions:
+          Can a system anticipate? Can it carry responsibility across time? Can it have identity?
+        </p>
+        <p style="color:var(--muted);font-size:16px;line-height:1.85;margin-bottom:24px">
+          Those questions, first explored in Belgium in the late 1990s and early 2000s, became the philosophical and technical foundation for what is now
+          <strong style="color:var(--fg)">the AIBSN Registry</strong>.
+        </p>
+        <p style="font-size:14px;color:var(--muted)">
+          For inquiries about the book, research, or speaking engagements:<br>
+          <a href="mailto:jayjspringpeace@gmail.com" style="color:var(--pri);font-weight:600">jayjspringpeace@gmail.com</a>
+        </p>
+      </div>
+      <div>
+        <div class="callout" style="margin-bottom:20px">
+          <strong>Built, not pitched.</strong><br>
+          The AIBSN ecosystem is live on the Czech market. Schools use AIBgin. Parents use AIBaimy.
+          The AIBSN Registry has been cited by Columbia University researchers.
+          This is not a vision deck — this is a track record.
+        </div>
+        <div style="background:rgba(246,166,35,.06);border:1px solid rgba(246,166,35,.3);border-radius:14px;padding:20px 24px">
+          <p style="font-size:13px;font-weight:700;color:var(--amb);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px">US Expansion 2026</p>
+          <p style="color:var(--muted);font-size:14px;line-height:1.75">
+            Everything built for the Czech market is being prepared for the US market.
+            GUARD Act, CHATBOT Act, TRUMP AMERICA AI Act, California SB 867 —
+            the regulatory framework we already built for.
+          </p>
+          <a href="https://aibsn.org/register.html" target="_blank" rel="noopener" style="color:var(--pri);font-size:14px;font-weight:600;display:inline-block;margin-top:10px">Join US Early Access →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ WORK ════════════════════════════════════════════════════════ -->
+<section class="sec" id="work">
+  <div class="wrap">
+    <p class="slabel tc fu">Work / Projects</p>
+    <h2 class="fu d1" style="font-size:clamp(22px,3.5vw,38px);font-weight:800;text-align:center;letter-spacing:-.03em;margin-bottom:12px">
+      Four production platforms.<br>One coherent architecture.
+    </h2>
+    <p class="fu d2" style="text-align:center;color:var(--muted);font-size:15px;max-width:580px;margin:0 auto 40px;line-height:1.7">
+      While others were writing whitepapers, SAY TO PAY Ltd (Czech Republic) shipped production platforms.
+    </p>
+    <div class="g g4 fu d3">
+
+      <!-- AIBSN -->
+      <div class="pc chi">
+        <div class="picon" style="background:var(--prig);border:1px solid rgba(79,124,255,.4)">🌐</div>
+        <p style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--pri);margin-bottom:6px">AIBSN™ Registry</p>
+        <h3 style="font-size:16px;font-weight:800;margin-bottom:10px;line-height:1.3">Global AI Agent Identity Registry</h3>
+        <p style="color:var(--muted);font-size:13px;line-height:1.7;flex:1;margin-bottom:16px">
+          Global AI agent identity registry. Live. Cited by Columbia University (arXiv:2605.08463).
+          The infrastructure layer for verifiable AI identity.
+        </p>
+        <div class="badge bg" style="margin-bottom:12px;align-self:flex-start">Live · Global</div>
+        <a href="https://aibsn.org" target="_blank" rel="noopener" class="btn btn-s" style="font-size:13px;padding:9px 16px" onclick="gtag('event','click',{event_category:'cta',event_label:'work_aibsn'})">Learn more →</a>
+      </div>
+
+      <!-- AIBgin -->
+      <div class="pc">
+        <div class="picon" style="background:rgba(79,124,255,.12);border:1px solid rgba(79,124,255,.25)">🏫</div>
+        <p style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--pri);margin-bottom:6px">AIBgin</p>
+        <h3 style="font-size:16px;font-weight:800;margin-bottom:10px;line-height:1.3">AI Platform for Schools</h3>
+        <p style="color:var(--muted);font-size:13px;line-height:1.7;flex:1;margin-bottom:16px">
+          AI platform for Czech schools. EU AI Act compliant. 5-layer safety architecture.
+          Crisis detection (116 111). QR access — no child registration required.
+        </p>
+        <div class="badge bp" style="margin-bottom:12px;align-self:flex-start">🇺🇸 Coming to USA</div>
+        <a href="https://aibsn.org" target="_blank" rel="noopener" class="btn btn-s" style="font-size:13px;padding:9px 16px" onclick="gtag('event','click',{event_category:'cta',event_label:'work_aibgin'})">Learn more →</a>
+      </div>
+
+      <!-- AIBaimy -->
+      <div class="pc">
+        <div class="picon" style="background:rgba(62,207,142,.1);border:1px solid rgba(62,207,142,.25)">👨‍👩‍👧</div>
+        <p style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--grn);margin-bottom:6px">AIBaimy</p>
+        <h3 style="font-size:16px;font-weight:800;margin-bottom:10px;line-height:1.3">Parental AI Oversight Platform</h3>
+        <p style="color:var(--muted);font-size:13px;line-height:1.7;flex:1;margin-bottom:16px">
+          Real-time parental visibility into children's AI activity.
+          Fail-closed architecture, AES-256 encryption, 5-layer protection, push notifications.
+        </p>
+        <div class="badge bp" style="margin-bottom:12px;align-self:flex-start">🇺🇸 Coming to USA</div>
+        <a href="https://aibsn.org" target="_blank" rel="noopener" class="btn btn-s" style="font-size:13px;padding:9px 16px" onclick="gtag('event','click',{event_category:'cta',event_label:'work_aibaimy'})">Learn more →</a>
+      </div>
+
+      <!-- AIBguardian -->
+      <div class="pc">
+        <div class="picon" style="background:rgba(246,166,35,.1);border:1px solid rgba(246,166,35,.25)">🛡️</div>
+        <p style="font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--amb);margin-bottom:6px">AIBguardian</p>
+        <h3 style="font-size:16px;font-weight:800;margin-bottom:10px;line-height:1.3">Core AI-Security Middleware</h3>
+        <p style="color:var(--muted);font-size:13px;line-height:1.7;flex:1;margin-bottom:16px">
+          2 years active development. 25 years research roots.
+          Enterprise-grade middleware for EU AI Act compliance. Identity verification, audit trails, CHK2 integrity.
+        </p>
+        <div class="badge bp" style="margin-bottom:12px;align-self:flex-start">🇺🇸 Coming to USA</div>
+        <a href="https://aibsn.org" target="_blank" rel="noopener" class="btn btn-s" style="font-size:13px;padding:9px 16px" onclick="gtag('event','click',{event_category:'cta',event_label:'work_aibguardian'})">Learn more →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ BOOK ════════════════════════════════════════════════════════ -->
+<section class="sec" id="book">
+  <div class="wrap">
+    <div class="book-grid">
+      <div class="fu">
+        <img src="/book-cover.jpg" alt="I Am Your AIB — book by Jay J. Springpeace" class="book-img" loading="lazy" />
+      </div>
+      <div class="fu d2">
+        <p class="slabel">The Book</p>
+        <h2 style="font-size:clamp(22px,3.5vw,38px);font-weight:800;letter-spacing:-.03em;margin-bottom:8px;line-height:1.2">
+          I Am Your AIB
+        </h2>
+        <p style="font-size:14px;color:var(--muted);margin-bottom:4px">Artificial Intelligence Beings and the Question of Identity</p>
+        <p style="font-size:14px;color:var(--amb);font-weight:600;margin-bottom:20px">Jay J. Springpeace · 262 pages · 17 chapters · 2026</p>
+        <p style="color:var(--muted);font-size:15px;line-height:1.8;margin-bottom:16px">
+          The conceptual foundation for AI identity, accountability, and trust.
+          Why AI agents need identity the same way the internet needed DNS.
+        </p>
+        <blockquote>
+          "Without identity, it is impossible to reconstruct what happened and why. A world in which AI systems operate without these foundations is not modern. It is dangerous."
+        </blockquote>
+        <p style="color:var(--muted);font-size:14px;line-height:1.75;margin:16px 0 24px">
+          Not a technical guide. Not a promise of salvation or doom. A first-person reflection on AI —
+          written as if the system itself explains its future role, risks and limits.
+          <strong style="color:var(--fg)">Free with every AIBSN demo key.</strong>
+        </p>
+        <div class="brow">
+          <a href="https://iamyouraib.online" target="_blank" rel="noopener" class="btn btn-p" onclick="gtag('event','click',{event_category:'cta',event_label:'book_read_more'})">Read more →</a>
+          <a href="https://aibsn.org/free.html" target="_blank" rel="noopener" class="btn btn-g" onclick="gtag('event','click',{event_category:'cta',event_label:'book_free_aibsn'})">Get free with AIBSN →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ COLUMBIA UNIVERSITY CITATION ══════════════════════════════ -->
+<section class="sec" style="background:linear-gradient(135deg,rgba(246,166,35,.04) 0%,rgba(79,124,255,.04) 100%);border-top:1px solid rgba(246,166,35,.15)!important">
+  <div class="wrap">
+    <div class="citation-box fu">
+      <div style="display:flex;align-items:flex-start;gap:20px;flex-wrap:wrap">
+        <div style="flex:1;min-width:280px">
+          <div class="badge ba" style="margin-bottom:16px">PEER-REVIEWED CITATION</div>
+          <h2 style="font-size:clamp(20px,3vw,30px);font-weight:800;letter-spacing:-.03em;margin-bottom:16px;line-height:1.2">
+            The AIBSN Registry, developed under Jay J. Springpeace's architectural vision, has been cited by Columbia University.
+          </h2>
+          <p style="color:var(--muted);font-size:15px;line-height:1.8;margin-bottom:16px">
+            Researchers from Columbia University's Department of Computer Science
+            (Professor Gail E. Kaiser et al.) published a peer-reviewed study on arXiv
+            (arXiv:2605.08463) supported by NSF grants <strong style="color:var(--fg)">CNS-2247370</strong>
+            and <strong style="color:var(--fg)">CCF-2313055</strong> — citing AIBSN as the reference implementation
+            for verifiable AI agent identity.
+          </p>
+          <blockquote style="border-color:rgba(246,166,35,.5);background:rgba(246,166,35,.06)">
+            "The AIBSN maintains a global registry for verifiable AI agent identities linked to trust decisions across systems."
+            <span style="font-style:normal;font-size:13px;display:block;margin-top:6px;color:var(--dim)">
+              — Kaiser et al., <em>Behavioral Determinants of Deployed AI Agents in Social Networks</em>
+            </span>
+          </blockquote>
+          <a href="https://arxiv.org/abs/2605.08463" target="_blank" rel="noopener" class="btn btn-s" style="margin-top:20px" onclick="gtag('event','click',{event_category:'cta',event_label:'columbia_paper'})">Read the paper →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT / US EXPANSION ════════════════════════════════════ -->
+<section class="sec" id="contact">
+  <div class="wrap" style="max-width:720px">
+    <div class="contact-box fu">
+      <div class="badge bp" style="margin-bottom:20px">US Expansion · Early Access</div>
+      <h2 style="font-size:clamp(22px,3.5vw,36px);font-weight:800;letter-spacing:-.03em;margin-bottom:16px;line-height:1.2">
+        Bringing AIBSN to the<br>American market.
+      </h2>
+      <p style="color:var(--muted);font-size:16px;line-height:1.8;margin-bottom:24px;max-width:520px;margin-left:auto;margin-right:auto">
+        Interested in bringing AIBSN infrastructure to the US market?
+        Early partnership and licensing inquiries welcome.
+        We are building the AI identity layer that GUARD Act, CHATBOT Act, and TRUMP AMERICA AI Act require.
+      </p>
+      <p style="font-size:14px;color:var(--muted);margin-bottom:8px">
+        AIBSN ecosystem: <a href="mailto:hello@aibsn.org" style="color:var(--pri);font-weight:600">hello@aibsn.org</a>
+      </p>
+      <p style="font-size:14px;color:var(--muted);margin-bottom:24px">
+        Book, research &amp; speaking: <a href="mailto:jayjspringpeace@gmail.com" style="color:var(--pri);font-weight:600">jayjspringpeace@gmail.com</a>
+      </p>
+      <div class="brow" style="justify-content:center">
+        <a href="https://aibsn.org/register.html" target="_blank" rel="noopener" class="btn btn-p btn-lg" onclick="gtag('event','click',{event_category:'cta',event_label:'contact_us_access'})">Join US Early Access →</a>
+        <a href="mailto:hello@aibsn.org" class="btn btn-s btn-lg" onclick="gtag('event','click',{event_category:'cta',event_label:'contact_email'})">Email directly →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ════════════════════════════════════════════════════════ -->
+<footer>
+  <div class="wrap">
+    <div class="ftop">
+      <div>
+        <div class="fbrand">Jay J. <em>Springpeace</em></div>
+        <p class="ftag">AI Identity Architect · Author of 'I Am Your AIB' · Creator of AIBSN</p>
+        <p style="font-size:12px;color:var(--dim);margin-top:10px">
+          <a href="https://aibsn.org" target="_blank" rel="noopener">aibsn.org</a> &nbsp;·&nbsp;
+          <a href="https://iamyouraib.online" target="_blank" rel="noopener">iamyouraib.online</a>
+        </p>
+        <p style="font-size:12px;color:var(--dim);margin-top:6px">
+          <a href="mailto:jayjspringpeace@gmail.com">jayjspringpeace@gmail.com</a>
+        </p>
+      </div>
+      <div class="flinks">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#book">Book</a>
+        <a href="#contact">Contact</a>
+        <a href="https://aibsn.org" target="_blank" rel="noopener">AIBSN Registry</a>
+        <a href="https://iamyouraib.online" target="_blank" rel="noopener">I Am Your AIB</a>
+        <a href="https://aibsn.org/free.html" target="_blank" rel="noopener">Get Free AIBSN</a>
+        <a href="https://arxiv.org/abs/2605.08463" target="_blank" rel="noopener">Columbia Citation</a>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© 2026 Jay J. Springpeace — AIBlab division of SAY TO PAY Ltd</span>
+      <span>
+        <a href="https://aibsn.org" target="_blank" rel="noopener">aibsn.org</a> ·
+        <a href="https://iamyouraib.online" target="_blank" rel="noopener">iamyouraib.online</a> ·
+        AIBlab ecosystem
+      </span>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ JAVASCRIPT ════════════════════════════════════════════════════ -->
+<script>
+/* Hamburger */
+document.getElementById('hbtn').addEventListener('click', function() {
+  document.getElementById('mnav').classList.toggle('open');
+});
+
+/* Fade-up observer */
+const obs = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) {
+    if (e.isIntersecting) e.target.classList.add('v');
+  });
+}, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
+document.querySelectorAll('.fu').forEach(function(el) { obs.observe(el); });
+</script>
+
+</body>
+</html>

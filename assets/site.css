@@ -208,3 +208,10 @@ section { padding: clamp(72px, 10vw, 130px) 0 0; }
 .cookie .acc { background: var(--primary); color: #fff; }
 .cookie .rej { background: transparent; color: var(--accent); }
 .cookie a { color: var(--accent); }
+
+/* Black Friday bar (21. 11. 2026) */
+.bf-bar { background: linear-gradient(90deg, #1a1405, #2a1f08 50%, #1a1405); border-bottom: 1px solid #6b5420; color: #f3f6fc; font-size: 0.92rem; line-height: 1.45; text-align: center; padding: 9px 16px; }
+.bf-tag { display: inline-block; font-size: 0.78rem; font-weight: 700; color: #1a1200; background: #ffc04d; border-radius: 999px; padding: 1px 10px; margin-right: 8px; vertical-align: 1px; }
+.bf-note { color: #c9d2e3; }
+.bf-bar a { color: #ffc04d; font-weight: 600; white-space: nowrap; text-decoration: underline; text-underline-offset: 2px; }
+.bf-bar a:hover { color: #f3f6fc; }
